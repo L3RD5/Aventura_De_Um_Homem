@@ -1,0 +1,37 @@
+/* Vinicius De Moraes Silva Leal */
+
+body {
+    background-color: rgb(110, 38, 38);
+      font-family: "Rye", serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgb(148, 158, 4);
+      height: 800px;
+      margin: 0px;
+
+    }
+
+
+button {
+  background-color: #a72812;
+  color: white;
+  font-family: "Rye", serif;
+}
+
+.passo {
+  display: none;
+}
+
+.passo.ativo {
+  display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+  max-width: 73%;
+}
